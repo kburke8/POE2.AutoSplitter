@@ -28,3 +28,6 @@ Thumbs.db
 # Ignore environment variables
 .env
 .env.*
+/POE2.AutoSplitter/Component/test-data/Path of Exile 2.lss
+/POE2.AutoSplitter/Component/test-data/Client.txt
+/POE2.AutoSplitter/Component/test-data/a.lsl

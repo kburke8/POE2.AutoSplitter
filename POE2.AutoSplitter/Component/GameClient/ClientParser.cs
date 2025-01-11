@@ -8,10 +8,6 @@ namespace POE2.AutoSplitter.Component.GameClient
         // Format: 2024/12/06 18:07:26 375906171 2caa1679
         private static readonly string TIMESTAMP_SECTION = @"^(\d{4}/\d{2}/\d{2} \d{2}:\d{2}:\d{2} \d+ [a-f0-9]+)";
 
-        // Detect when we've entered a zone
-        //private static readonly Regex ZONE_ENTERED = new Regex(
-        //    TIMESTAMP_SECTION + @" \[DEBUG Client \d+\] Generating level \d+ area ""(?<zone>[^""]+)"" with seed \d+"
-        //);
         private static readonly Regex ZONE_ENTERED = new Regex(
             TIMESTAMP_SECTION + @" \[DEBUG Client \d+\] Generating level \d+ area ""(?<zone>C?_?[\w_]+)"" with seed \d+"
 );
