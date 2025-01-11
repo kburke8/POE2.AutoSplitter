@@ -1,0 +1,30 @@
+# Ignore build outputs
+bin/
+obj/
+*.pdb
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore Rider and JetBrains IDE files
+.idea/
+*.iml
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+
+# Ignore dependency manager files
+packages/
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables
+.env
+.env.*

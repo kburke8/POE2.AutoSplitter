@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>Path of Exile 2</GameName>
+  <CategoryName>
+  </CategoryName>
+  <LayoutPath>
+  </LayoutPath>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory />
+  <Segments>
+    <Segment>
+      <Name>The Riverbank</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Clearfell Encampment</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Clearfell</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Mud Burrow</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Grelwood</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Red Vale</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Grim Tangle</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Cemetery of the Eternals</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings>
+    <log.location>G:\Source\POE2.AutoSplitter\POE2.AutoSplitter\Component\test-data\Client.txt</log.location>
+    <load.removal>False</load.removal>
+    <auto.split>True</auto.split>
+    <split.labyrinth.type>AllZones</split.labyrinth.type>
+    <split.criteria>Zones</split.criteria>
+    <generate.with.icons>True</generate.with.icons>
+    <split.zones.on>
+      <split.zone>The Riverbank (Act 1)</split.zone>
+      <split.zone>Clearfell Encampment (Act 1)</split.zone>
+      <split.zone>Clearfell (Act 1)</split.zone>
+      <split.zone>Mud Burrow (Act 1)</split.zone>
+      <split.zone>Grelwood (Act 1)</split.zone>
+      <split.zone>Red Vale (Act 1)</split.zone>
+      <split.zone>Cemetery of the Eternals (Act 1)</split.zone>
+      <split.zone>Grim Tangle (Act 1)</split.zone>
+    </split.zones.on>
+    <split.levels.on>
+    </split.levels.on>
+  </AutoSplitterSettings>
+</Run>

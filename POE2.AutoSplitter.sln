@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POE2.AutoSplitter", "POE2.AutoSplitter\POE2.AutoSplitter.csproj", "{551BB4B0-90F7-4559-BC33-FCD089C96396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSplit.Core", "LiveSplit\src\LiveSplit.Core\LiveSplit.Core.csproj", "{A4B2A7E9-EB99-D8D4-73C1-BF9FF8376B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateManager", "LiveSplit\src\UpdateManager\UpdateManager.csproj", "{B5DE6D5E-CC2F-ADAE-A13F-671082DCC7E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedrunComSharp", "LiveSplit\lib\SpeedrunComSharp\src\SpeedrunComSharp\SpeedrunComSharp.csproj", "{F5760BAA-06AF-A28C-0985-8E1CB301A5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFontDialog", "LiveSplit\lib\CustomFontDialog\CustomFontDialog\CustomFontDialog.csproj", "{E2452148-3BD7-7A5B-2250-7E81E0EE0288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsColor", "LiveSplit\lib\WinForms Color Picker\WinFormsColor\WinFormsColor.csproj", "{FF5FC590-004A-12CA-91EC-CCB40D8B0F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POE2.AutoSplitter.Tests", "POE2.AutoSplitter.Tests\POE2.AutoSplitter.Tests.csproj", "{52537842-6696-42DD-97E0-37F43B66A3CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7DF1EE7-7923-4297-A231-BACEFD632BEC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{551BB4B0-90F7-4559-BC33-FCD089C96396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551BB4B0-90F7-4559-BC33-FCD089C96396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551BB4B0-90F7-4559-BC33-FCD089C96396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551BB4B0-90F7-4559-BC33-FCD089C96396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B2A7E9-EB99-D8D4-73C1-BF9FF8376B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B2A7E9-EB99-D8D4-73C1-BF9FF8376B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B2A7E9-EB99-D8D4-73C1-BF9FF8376B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B2A7E9-EB99-D8D4-73C1-BF9FF8376B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DE6D5E-CC2F-ADAE-A13F-671082DCC7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DE6D5E-CC2F-ADAE-A13F-671082DCC7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DE6D5E-CC2F-ADAE-A13F-671082DCC7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DE6D5E-CC2F-ADAE-A13F-671082DCC7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5760BAA-06AF-A28C-0985-8E1CB301A5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5760BAA-06AF-A28C-0985-8E1CB301A5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5760BAA-06AF-A28C-0985-8E1CB301A5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5760BAA-06AF-A28C-0985-8E1CB301A5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2452148-3BD7-7A5B-2250-7E81E0EE0288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2452148-3BD7-7A5B-2250-7E81E0EE0288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2452148-3BD7-7A5B-2250-7E81E0EE0288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2452148-3BD7-7A5B-2250-7E81E0EE0288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5FC590-004A-12CA-91EC-CCB40D8B0F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5FC590-004A-12CA-91EC-CCB40D8B0F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5FC590-004A-12CA-91EC-CCB40D8B0F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5FC590-004A-12CA-91EC-CCB40D8B0F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52537842-6696-42DD-97E0-37F43B66A3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52537842-6696-42DD-97E0-37F43B66A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52537842-6696-42DD-97E0-37F43B66A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52537842-6696-42DD-97E0-37F43B66A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5760BAA-06AF-A28C-0985-8E1CB301A5F4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E2452148-3BD7-7A5B-2250-7E81E0EE0288} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FF5FC590-004A-12CA-91EC-CCB40D8B0F14} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03459B02-DABF-46F1-B37E-16D208A265E1}
+	EndGlobalSection
+EndGlobal

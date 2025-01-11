@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net4.8.1</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiveSplit\lib\CustomFontDialog\CustomFontDialog\CustomFontDialog.csproj" />
+    <ProjectReference Include="..\LiveSplit\lib\WinForms Color Picker\WinFormsColor\WinFormsColor.csproj" />
+    <ProjectReference Include="..\LiveSplit\src\LiveSplit.Core\LiveSplit.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy /Y &quot;$(TargetPath)&quot; &quot;G:\Source\POE2.AutoSplitter\LiveSplit\bin\debug\Components&quot;&#xA;xcopy /Y &quot;$(TargetDir)*.pdb&quot; &quot;G:\Source\POE2.AutoSplitter\LiveSplit\bin\debug\Components&quot;&#xA;" />
+  </Target>
+
+</Project>
